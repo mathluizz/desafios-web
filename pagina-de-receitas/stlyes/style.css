@@ -1,0 +1,91 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "lato", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.top-bar, .footer{
+    padding: 15px;
+    background-color: #ff6b28;
+    color: white;
+    text-align: center;
+}
+.cake{
+    background: url("../images/hero_bolo.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 400px;
+}
+@media screen and (min-width: 1060px) {
+    .container {
+      margin: 0 20vw;
+    }
+  }
+
+h1{
+    font-size: 48px;
+    min-width: 900px;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+h1, h3{
+    color: #ff6b28;
+}
+li{
+    margin-bottom: 14px;
+}
+ul{
+    margin-bottom: 50px;
+}
+.content{
+    margin-top: auto;
+    max-width: 990px;
+    padding: 0 40px;
+    margin-top: 100px;
+}
+a{
+    text-decoration: none;
+}
+.buttom{
+    padding: 16px;
+    background-size: 10px;
+    background-color: #ff6b28;
+    border-radius: 20px;
+    color: white;
+}
+.card{
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.card:hover{
+     box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+.ingredients{
+    cursor: url("../images/cursor_ingredientes.png"), default;
+}
+.prepare{
+    cursor: url("../images/cursor_preparo.png"), default;
+}
+.instructions{
+    cursor: url("../images/cursor_intrucoes.png"), default;
+}
+p, li{
+    line-height: 28px;
+}
+.footer{
+    margin-top: 100px;
+    text-align: center;
+}
+.footer p{
+    max-width: 500px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+.text-white{
+    color: white;
+}
+
