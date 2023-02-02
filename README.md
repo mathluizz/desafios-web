@@ -5,4 +5,7 @@ A seguir estarão alguns desafios propostos no curso <a href="https://programado
 
 <a href="pagina-de-captura">Página de captura</a>
 
+<a href="churrasco-calculator">Calculadora de churrasco</a>
+
+
 
